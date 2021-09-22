@@ -558,11 +558,13 @@
     },
     "hf-task-x": {
         "cutYCandMax": "1.44",
-        "d_selectionFlagX": "0"
+        "d_selectionFlagX": "0",
+	"modeXToJpsiToMuMuPiPi": true
     },
     "hf-task-x-mc": {
         "cutYCandMax": "1.44",
-        "d_selectionFlagX": "0"
+        "d_selectionFlagX": "0",
+	"modeXToJpsiToMuMuPiPi": true
     },
     "hf-track-index-skims-cascades-creator": {
         "doValPlots": "true",

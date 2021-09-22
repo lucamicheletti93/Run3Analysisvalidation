@@ -4,7 +4,7 @@
 # Input specification for runtest.sh
 # (Modifies input parameters.)
 
-INPUT_CASE=2            # Input case
+INPUT_CASE=13          # Input case
 
 NFILESMAX=1             # Maximum number of processed input files. (Set to -0 to process all; to -N to process all but the last N files.)
 
@@ -61,7 +61,8 @@ case $INPUT_CASE in
     ISMC=1;;
   8)
     INPUT_LABEL="Run 5, p-p MC 14 TeV MB, Layout v1, onia analysis"
-    INPUT_DIR="/home/auras/simulations/delphes/pp_MB_2021_06_10" # OBSOLETE
+    #INPUT_DIR="/home/auras/simulations/delphes/pp_MB_2021_06_10" # OBSOLETE
+    INPUT_DIR="/home/mmazzill/pp14TeV_inel_20M_geometry_v1_rmin20_02092021"
     INPUT_FILES="AODRun5.*.root"
     JSON="$JSONRUN5_ONIAX"
     ISINPUTO2=1
@@ -69,7 +70,9 @@ case $INPUT_CASE in
     ISMC=1;;
   9)
     INPUT_LABEL="Run 5, p-p MC 14 TeV OniaX-enriched, Layout v1, oniaX analysis"
-    INPUT_DIR="/data/Run5/MC/pp_14TeV/OniaX_v1"
+    #INPUT_DIR="/data/Run5/MC/pp_14TeV/OniaX_v1"
+    INPUT_DIR="/home/mmazzill/pp14TeV_oniaX_10M_geometry_v1_2T_rmin20_01092021"
+    #INPUT_DIR="/home/lmichele/alice/test_prods/LHC21d9j"
     INPUT_FILES="AODRun5.*.root"
     JSON="$JSONRUN5_ONIAX"
     ISINPUTO2=1
@@ -101,7 +104,10 @@ case $INPUT_CASE in
     ISMC=1;;
   13)
     INPUT_LABEL="Run 5, Pb-Pb MC 5.520 TeV MB, Layout v1, HF analysis"
-    INPUT_DIR="/data/Run5/MC/PbPb_5p520TeV/MB_v1"
+    #INPUT_DIR="/data/Run5/MC/PbPb_5p520TeV/MB_v1"
+    #INPUT_DIR="/home/lmichele/alice/test_prods/LHC21d9b"
+    #INPUT_DIR="/home/mmazzill/PbPb_10k_geometry_v1_05T_rmin20"
+    INPUT_DIR="/home/mmazzill/PbPb_4K_dipole_test_20092021"
     INPUT_FILES="AODRun5.*.root"
     JSON="$JSONRUN5_HF"
     ISINPUTO2=1
