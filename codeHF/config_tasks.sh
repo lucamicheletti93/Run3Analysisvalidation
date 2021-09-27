@@ -58,9 +58,9 @@ DOO2_TASK_D0=0      # hf-task-d0
 DOO2_TASK_DPLUS=0   # hf-task-dplus
 DOO2_TASK_LC=0      # hf-task-lc
 DOO2_TASK_XIC=0     # hf-task-xic
-DOO2_TASK_JPSI=1    # hf-task-jpsi
+DOO2_TASK_JPSI=0    # hf-task-jpsi
 DOO2_TASK_BPLUS=0   # hf-task-bplus
-DOO2_TASK_X=0       # hf-task-x
+DOO2_TASK_X=1       # hf-task-x
 DOO2_TASK_LCK0S=0  # hf-task-lc-tok0sp
 # Tree creators
 DOO2_TREE_D0=0      # hf-tree-creator-d0-tokpi
@@ -79,7 +79,7 @@ APPLYCUTS_DPLUS=0   # Apply D+ selection cuts.
 APPLYCUTS_LC=0      # Apply Λc selection cuts.
 APPLYCUTS_XIC=0     # Apply Ξc selection cuts.
 APPLYCUTS_JPSI=1    # Apply J/ψ selection cuts.
-APPLYCUTS_X=0       # Apply X selection cuts.
+APPLYCUTS_X=1       # Apply X selection cuts.
 APPLYCUTS_LCK0SP=0  # Apply Λc → K0S p selection cuts.
 
 SAVETREES=0         # Save O2 tables to trees.

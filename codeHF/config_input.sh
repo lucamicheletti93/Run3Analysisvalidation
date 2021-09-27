@@ -6,7 +6,7 @@
 
 INPUT_CASE=13          # Input case
 
-NFILESMAX=1             # Maximum number of processed input files. (Set to -0 to process all; to -N to process all but the last N files.)
+NFILESMAX=1           # Maximum number of processed input files. (Set to -0 to process all; to -N to process all but the last N files.)
 
 # Number of input files per job (Automatic optimisation on if < 1.)
 NFILESPERJOB_CONVERT=0  # Conversion
@@ -71,8 +71,8 @@ case $INPUT_CASE in
   9)
     INPUT_LABEL="Run 5, p-p MC 14 TeV OniaX-enriched, Layout v1, oniaX analysis"
     #INPUT_DIR="/data/Run5/MC/pp_14TeV/OniaX_v1"
-    INPUT_DIR="/home/mmazzill/pp14TeV_oniaX_10M_geometry_v1_2T_rmin20_01092021"
-    #INPUT_DIR="/home/lmichele/alice/test_prods/LHC21d9j"
+    #INPUT_DIR="/home/mmazzill/pp14TeV_oniaX_10M_geometry_v1_2T_rmin20_01092021"
+    INPUT_DIR="/home/lmichele/alice/test_prods/LHC21d9j"
     INPUT_FILES="AODRun5.*.root"
     JSON="$JSONRUN5_ONIAX"
     ISINPUTO2=1
@@ -106,8 +106,11 @@ case $INPUT_CASE in
     INPUT_LABEL="Run 5, Pb-Pb MC 5.520 TeV MB, Layout v1, HF analysis"
     #INPUT_DIR="/data/Run5/MC/PbPb_5p520TeV/MB_v1"
     #INPUT_DIR="/home/lmichele/alice/test_prods/LHC21d9b"
+    #INPUT_DIR="/home/lmichele/alice/test_prods/LHC21d9k"
+    #INPUT_DIR="/home/lmichele/alice/test_prods/LHC21d9k/sample2"
+    INPUT_DIR="/home/lmichele/alice/test_prods/LHC21d9m"
     #INPUT_DIR="/home/mmazzill/PbPb_10k_geometry_v1_05T_rmin20"
-    INPUT_DIR="/home/mmazzill/PbPb_4K_dipole_test_20092021"
+    #INPUT_DIR="/home/mmazzill/PbPb_4K_dipole_test_20092021"
     INPUT_FILES="AODRun5.*.root"
     JSON="$JSONRUN5_HF"
     ISINPUTO2=1
